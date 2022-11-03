@@ -24,5 +24,6 @@ function renderList(character) {
   newCharacter.textContent = character.name;
   lista.append(newCharacter);
 }
+console.log("chuj");
 
 searchBtn.addEventListener("click", getData);
